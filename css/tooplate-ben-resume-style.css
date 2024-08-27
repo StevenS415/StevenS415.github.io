@@ -382,6 +382,20 @@ https://www.tooplate.com/view/2120-ben-resume
     margin: 1.5rem 2rem 0 2rem;
   }
 
+  .flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px; /* Adjusts space between items */
+	justify-content: flex-start; /* Aligns items to the left */
+  }
+  .flex-container img {
+	max-width: 100%; /* Ensures images are responsive */
+	height: auto;
+  }
+  .flex-item {
+	flex: 1 1 auto;
+	max-width: 200px;
+}
 
   /*---------------------------------------
      TESTIMONIALS               
