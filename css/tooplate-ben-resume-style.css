@@ -52,6 +52,7 @@ https://www.tooplate.com/view/2120-ben-resume
     --h6-font-size:         24px;
     --p-font-size:          18px;
     --base-font-size:       16px;
+	--triple-font-size:		14px;
     --button-font-size:     20px;
 
     --border-radius-large:  100%;
@@ -106,6 +107,8 @@ https://www.tooplate.com/view/2120-ben-resume
     letter-spacing: 0.3px;
     line-height: 2em;
   }
+  
+  
 
   .section-padding {
     padding: 6rem 0;
@@ -347,7 +350,14 @@ https://www.tooplate.com/view/2120-ben-resume
     width: 30%;
     margin-right: 1rem;
   }
-
+  
+  .triple-list {
+    color: var(--p-color);
+    font-size: var(--triple-font-size);
+    font-weight: var(--font-weight-light);
+    letter-spacing: 0.3px;
+    line-height: 2em;
+  }
 
   /*---------------------------------------
      FAQ                 
