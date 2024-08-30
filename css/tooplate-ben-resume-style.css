@@ -108,7 +108,12 @@ https://www.tooplate.com/view/2120-ben-resume
     line-height: 2em;
   }
   
-  
+  figcaption {
+	  color: var(--p-color);
+	  font-size: var(--triple-font-size);
+	  font-weight: var(--font-weight-light);
+	  letter-spacing: 0.3px;
+  }
 
   .section-padding {
     padding: 6rem 0;
@@ -536,6 +541,22 @@ https://www.tooplate.com/view/2120-ben-resume
     padding: 1.5rem 1.8rem 1.8rem 1.8rem;
     white-space: nowrap;
     max-width: 190px;
+  }
+  
+  .footer-info {
+    display: flex;
+    justify-content: space-evenly; /* Distributes space between the items */
+    align-items: center; /* Aligns items vertically */
+    margin-top: 20px; /* Adds space above the footer */
+	font-size: var(--base-font-size);
+  }
+
+  .footer-info p {
+    margin: 0; /* Removes default margin from paragraphs */
+  }
+
+  .design-credit a {
+    text-decoration: none; /* Removes underline from the link */
   }
 
   .copyright-text {
